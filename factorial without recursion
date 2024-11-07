@@ -1,0 +1,6 @@
+n=int(input("enter the range: "))
+fact=1
+for i in range(n):
+    fact*=n 
+    n= n-1
+print(fact)
